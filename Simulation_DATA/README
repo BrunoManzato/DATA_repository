@@ -1,0 +1,90 @@
+*********************************************************
+*********************************************************
+*********************************************************
+
+
+	This directory is for simulated data
+       of the Plastic Scintillator experiment
+	     of CAU-USP collaboration
+	
+
+*********************************************************
+*********************************************************
+*********************************************************
+
+----->Breaf desciption of folders in this directory (they are in chronological order of development):
+-->Obs.: Simulations from 1 to 8 (except number 5) has one muon for each root file that was projected 
+rightly in the center of the bigger face of the detector.
+
+
+	1)TestFIberNumber
+	-->18 simulations of 1 5GeV Muon event, changing the number of fibers
+	 from 10 (output0.root) to 100 (output18.root). Each one has 5 more fibers
+	 than the one before (output1.root has 15 fibers, output2.root has 20 fibers, ...). 
+	 Here we are still using 100% capture rate for fibers.  
+	 
+
+
+	2)TestFiberNumberV2
+	-->Same as TestFIberNumber, to compare results, because there was just one simulation 
+	 for each number of fibers. It's because we were still developing the simulation and 
+	 will consume to much time.
+	 
+	 
+	3)Test5PerCentCapture
+	-->Same as TestFIberNumber, but we have 5% capture rate of photons that reach
+	 the SiPM in order to simulate the effect of loss into the fiber, because we
+	 weren't able to do this by physics (futurely we can adjust this to leave the
+	 correct capture rate to physics).
+	
+	
+	4)Test100Muons
+	-->100 different simulations of 1 5GeV muon going into the center of the detector
+	with the "perfect" conditions of the plastic scintillator and fiber position. The simulation
+	uses 100 cm x 100 cm x 3cm plastic scintillator EJ-200 with 40 fibers in each surface.
+	
+	
+	5)Positionchange
+	-->Test changing the position of the incident muon to test the accuracy of the sistem.
+	
+	
+	6)NoReflectivity
+	-->100 simulations of 1 5GeV muon with no reflectivity cover over the detector to test
+	 possible photon losses due to this.
+	
+	
+	7)Bubbles
+	-->100 simulations of 1 5GeV muon with bubbles over one surface of the detector. The bubbles
+	 were at the side that is labbled in root files as "X axis".
+	
+	
+	8)0mm_GAP, 0.5mm_GAP, and 1mm_GAP
+	-->100 simulations of 1 5GeV muon and with a gap of 0mm, 0.5mm and 1mm between the fibers and
+	 the scintillator. We reproduced the 0mm simulation because we changed a bit the construction
+	 in simulation, using an air cover over all the detector to still simulate the reflective cover
+	 above it.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
