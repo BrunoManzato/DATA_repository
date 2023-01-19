@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "Trigger.C": "cpp",
+        "Peak.C": "cpp",
+        "PondAverage.C": "cpp"
+    }
+}

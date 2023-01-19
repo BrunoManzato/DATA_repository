@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "compute.C": "cpp",
+        "Plot2D.C": "cpp",
+        "PondAverage.C": "cpp"
+    }
+}
